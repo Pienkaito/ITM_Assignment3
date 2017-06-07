@@ -1,0 +1,214 @@
+02-Jan-2016 18:14:06.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M1
+02-Jan-2016 18:14:06.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2015 22:05:52 UTC
+02-Jan-2016 18:14:06.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+02-Jan-2016 18:14:06.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+02-Jan-2016 18:14:06.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+02-Jan-2016 18:14:06.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Jan-2016 18:14:06.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_45\jre
+02-Jan-2016 18:14:06.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_45-b15
+02-Jan-2016 18:14:06.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Jan-2016 18:14:06.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Dropbox\Dropbox\Code\itm-2016-master\BU\itm_sample_s3_SS16\tools\tomcat\apache-tomcat-9.0.0.M1
+02-Jan-2016 18:14:06.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Dropbox\Dropbox\Code\itm-2016-master\BU\itm_sample_s3_SS16\tools\tomcat\apache-tomcat-9.0.0.M1
+02-Jan-2016 18:14:06.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Dropbox\Dropbox\Code\itm-2016-master\BU\itm_sample_s3_SS16\tools\tomcat\apache-tomcat-9.0.0.M1\conf\logging.properties
+02-Jan-2016 18:14:06.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Jan-2016 18:14:06.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Dropbox\Dropbox\Code\itm-2016-master\BU\itm_sample_s3_SS16\tools\tomcat\apache-tomcat-9.0.0.M1
+02-Jan-2016 18:14:06.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Dropbox\Dropbox\Code\itm-2016-master\BU\itm_sample_s3_SS16\tools\tomcat\apache-tomcat-9.0.0.M1
+02-Jan-2016 18:14:06.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Dropbox\Dropbox\Code\itm-2016-master\BU\itm_sample_s3_SS16\tools\tomcat\apache-tomcat-9.0.0.M1\temp
+02-Jan-2016 18:14:06.686 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_45\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files (x86)\Skype\Phone\;C:\Users\morit\.dnx\bin;C:\Users\morit\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Java\jdk1.8.0_45;.
+02-Jan-2016 18:14:06.829 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Jan-2016 18:14:06.902 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Jan-2016 18:14:06.905 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2016 18:14:06.907 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Jan-2016 18:14:06.907 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 564 ms
+02-Jan-2016 18:14:06.929 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+02-Jan-2016 18:14:06.929 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M1
+02-Jan-2016 18:14:06.938 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\BU\itm_sample_s3_SS16\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\docs
+02-Jan-2016 18:14:07.185 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\BU\itm_sample_s3_SS16\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\docs has finished in 246 ms
+02-Jan-2016 18:14:07.186 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\BU\itm_sample_s3_SS16\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\examples
+02-Jan-2016 18:14:07.465 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\BU\itm_sample_s3_SS16\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\examples has finished in 279 ms
+02-Jan-2016 18:14:07.465 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\BU\itm_sample_s3_SS16\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\host-manager
+02-Jan-2016 18:14:07.495 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\BU\itm_sample_s3_SS16\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\host-manager has finished in 30 ms
+02-Jan-2016 18:14:07.496 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\BU\itm_sample_s3_SS16\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\manager
+02-Jan-2016 18:14:07.520 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\BU\itm_sample_s3_SS16\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\manager has finished in 23 ms
+02-Jan-2016 18:14:07.520 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\BU\itm_sample_s3_SS16\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\ROOT
+02-Jan-2016 18:14:07.538 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\BU\itm_sample_s3_SS16\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\ROOT has finished in 18 ms
+02-Jan-2016 18:14:07.542 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+02-Jan-2016 18:14:07.551 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+02-Jan-2016 18:14:07.554 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 646 ms
+02-Jan-2016 18:16:25.139 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Jan-2016 18:16:25.140 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Jan-2016 18:16:25.193 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2016 18:16:25.195 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+02-Jan-2016 18:16:25.233 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Jan-2016 18:16:25.236 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2016 18:16:25.237 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Jan-2016 18:16:25.239 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2016 18:32:55.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M1
+02-Jan-2016 18:32:55.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2015 22:05:52 UTC
+02-Jan-2016 18:32:55.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+02-Jan-2016 18:32:55.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+02-Jan-2016 18:32:55.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+02-Jan-2016 18:32:55.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Jan-2016 18:32:55.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_45\jre
+02-Jan-2016 18:32:55.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_45-b15
+02-Jan-2016 18:32:55.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Jan-2016 18:32:55.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1
+02-Jan-2016 18:32:55.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1
+02-Jan-2016 18:32:55.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\conf\logging.properties
+02-Jan-2016 18:32:55.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Jan-2016 18:32:55.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1
+02-Jan-2016 18:32:55.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1
+02-Jan-2016 18:32:55.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\temp
+02-Jan-2016 18:32:55.445 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_45\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files (x86)\Skype\Phone\;C:\Users\morit\.dnx\bin;C:\Users\morit\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Java\jdk1.8.0_45;.
+02-Jan-2016 18:32:55.550 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Jan-2016 18:32:55.610 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Jan-2016 18:32:55.613 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2016 18:32:55.615 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Jan-2016 18:32:55.615 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 458 ms
+02-Jan-2016 18:32:55.633 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+02-Jan-2016 18:32:55.634 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M1
+02-Jan-2016 18:32:55.642 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\docs
+02-Jan-2016 18:32:55.910 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\docs has finished in 268 ms
+02-Jan-2016 18:32:55.911 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\examples
+02-Jan-2016 18:32:56.193 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\examples has finished in 281 ms
+02-Jan-2016 18:32:56.193 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\host-manager
+02-Jan-2016 18:32:56.219 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\host-manager has finished in 26 ms
+02-Jan-2016 18:32:56.220 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\manager
+02-Jan-2016 18:32:56.252 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\manager has finished in 32 ms
+02-Jan-2016 18:32:56.253 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\ROOT
+02-Jan-2016 18:32:56.270 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\ROOT has finished in 17 ms
+02-Jan-2016 18:32:56.273 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+02-Jan-2016 18:32:56.280 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+02-Jan-2016 18:32:56.283 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 666 ms
+02-Jan-2016 18:34:13.555 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Jan-2016 18:34:13.556 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Jan-2016 18:34:13.610 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2016 18:34:13.661 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+02-Jan-2016 18:34:13.694 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Jan-2016 18:34:13.702 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2016 18:34:13.703 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Jan-2016 18:34:13.705 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2016 18:34:16.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M1
+02-Jan-2016 18:34:16.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2015 22:05:52 UTC
+02-Jan-2016 18:34:16.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+02-Jan-2016 18:34:16.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+02-Jan-2016 18:34:16.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+02-Jan-2016 18:34:16.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Jan-2016 18:34:16.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_45\jre
+02-Jan-2016 18:34:16.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_45-b15
+02-Jan-2016 18:34:16.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Jan-2016 18:34:16.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1
+02-Jan-2016 18:34:16.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1
+02-Jan-2016 18:34:16.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\conf\logging.properties
+02-Jan-2016 18:34:16.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Jan-2016 18:34:16.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1
+02-Jan-2016 18:34:16.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1
+02-Jan-2016 18:34:16.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\temp
+02-Jan-2016 18:34:16.624 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_45\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files (x86)\Skype\Phone\;C:\Users\morit\.dnx\bin;C:\Users\morit\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Java\jdk1.8.0_45;.
+02-Jan-2016 18:34:16.738 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Jan-2016 18:34:16.804 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Jan-2016 18:34:16.808 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2016 18:34:16.810 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Jan-2016 18:34:16.811 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 495 ms
+02-Jan-2016 18:34:16.832 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+02-Jan-2016 18:34:16.833 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M1
+02-Jan-2016 18:34:16.840 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\docs
+02-Jan-2016 18:34:17.044 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\docs has finished in 204 ms
+02-Jan-2016 18:34:17.045 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\examples
+02-Jan-2016 18:34:17.317 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\examples has finished in 272 ms
+02-Jan-2016 18:34:17.318 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\host-manager
+02-Jan-2016 18:34:17.346 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\host-manager has finished in 27 ms
+02-Jan-2016 18:34:17.346 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\manager
+02-Jan-2016 18:34:17.381 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\manager has finished in 35 ms
+02-Jan-2016 18:34:17.382 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\ROOT
+02-Jan-2016 18:34:17.400 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\ROOT has finished in 18 ms
+02-Jan-2016 18:34:17.404 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+02-Jan-2016 18:34:17.411 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+02-Jan-2016 18:34:17.413 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 602 ms
+02-Jan-2016 18:51:47.764 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+02-Jan-2016 18:51:47.765 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+02-Jan-2016 18:51:47.797 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+02-Jan-2016 18:51:48.298 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/examples]
+02-Jan-2016 18:51:48.823 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/host-manager]
+02-Jan-2016 18:51:49.328 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+02-Jan-2016 18:51:49.840 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/docs]
+02-Jan-2016 19:10:55.394 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Jan-2016 19:10:55.394 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Jan-2016 19:10:55.448 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2016 19:10:55.499 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+02-Jan-2016 19:10:55.509 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Jan-2016 19:10:55.513 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2016 19:10:55.514 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Jan-2016 19:10:55.516 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2016 19:12:35.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M1
+02-Jan-2016 19:12:35.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2015 22:05:52 UTC
+02-Jan-2016 19:12:35.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+02-Jan-2016 19:12:35.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+02-Jan-2016 19:12:35.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+02-Jan-2016 19:12:35.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Jan-2016 19:12:35.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_45\jre
+02-Jan-2016 19:12:35.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_45-b15
+02-Jan-2016 19:12:35.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Jan-2016 19:12:35.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1
+02-Jan-2016 19:12:35.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1
+02-Jan-2016 19:12:35.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=tools\tomcat\apache-tomcat-9.0.0.M1\conf\logging.properties
+02-Jan-2016 19:12:35.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Jan-2016 19:12:35.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+02-Jan-2016 19:12:35.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=tools\tomcat\apache-tomcat-9.0.0.M1
+02-Jan-2016 19:12:35.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=tools\tomcat\apache-tomcat-9.0.0.M1
+02-Jan-2016 19:12:35.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=tools\tomcat\apache-tomcat-9.0.0.M1\temp
+02-Jan-2016 19:12:35.200 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_45\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files (x86)\Skype\Phone\;C:\Users\morit\.dnx\bin;C:\Users\morit\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Java\jdk1.8.0_45;.
+02-Jan-2016 19:12:35.294 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Jan-2016 19:12:35.348 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Jan-2016 19:12:35.350 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2016 19:12:35.352 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Jan-2016 19:12:35.353 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 417 ms
+02-Jan-2016 19:12:35.373 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+02-Jan-2016 19:12:35.373 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M1
+02-Jan-2016 19:12:35.380 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\ROOT
+02-Jan-2016 19:12:35.606 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\ROOT has finished in 225 ms
+02-Jan-2016 19:12:35.609 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+02-Jan-2016 19:12:35.616 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+02-Jan-2016 19:12:35.618 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 265 ms
+02-Jan-2016 19:12:56.377 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Jan-2016 19:12:56.378 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Jan-2016 19:12:56.431 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2016 19:12:56.482 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+02-Jan-2016 19:12:56.495 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Jan-2016 19:12:56.497 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2016 19:12:56.498 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Jan-2016 19:12:56.500 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2016 19:15:06.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M1
+02-Jan-2016 19:15:06.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2015 22:05:52 UTC
+02-Jan-2016 19:15:06.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+02-Jan-2016 19:15:06.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+02-Jan-2016 19:15:06.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+02-Jan-2016 19:15:06.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Jan-2016 19:15:06.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_45\jre
+02-Jan-2016 19:15:06.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_45-b15
+02-Jan-2016 19:15:06.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Jan-2016 19:15:06.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1
+02-Jan-2016 19:15:06.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1
+02-Jan-2016 19:15:06.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=tools\tomcat\apache-tomcat-9.0.0.M1\conf\logging.properties
+02-Jan-2016 19:15:06.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Jan-2016 19:15:06.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+02-Jan-2016 19:15:06.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=tools\tomcat\apache-tomcat-9.0.0.M1
+02-Jan-2016 19:15:06.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=tools\tomcat\apache-tomcat-9.0.0.M1
+02-Jan-2016 19:15:06.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=tools\tomcat\apache-tomcat-9.0.0.M1\temp
+02-Jan-2016 19:15:06.015 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_45\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files (x86)\Skype\Phone\;C:\Users\morit\.dnx\bin;C:\Users\morit\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Java\jdk1.8.0_45;.
+02-Jan-2016 19:15:06.114 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Jan-2016 19:15:06.172 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Jan-2016 19:15:06.175 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2016 19:15:06.177 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Jan-2016 19:15:06.178 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 439 ms
+02-Jan-2016 19:15:06.198 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+02-Jan-2016 19:15:06.198 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M1
+02-Jan-2016 19:15:06.205 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\conf\Catalina\localhost\itm.xml
+02-Jan-2016 19:15:06.233 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+02-Jan-2016 19:15:07.235 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jan-2016 19:15:07.307 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\conf\Catalina\localhost\itm.xml has finished in 1,102 ms
+02-Jan-2016 19:15:07.309 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\ROOT
+02-Jan-2016 19:15:07.337 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Dropbox\Dropbox\Code\itm-2016-master\itm_sample_a3_SS16\assignment3\tools\tomcat\apache-tomcat-9.0.0.M1\webapps\ROOT has finished in 27 ms
+02-Jan-2016 19:15:07.340 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+02-Jan-2016 19:15:07.347 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+02-Jan-2016 19:15:07.349 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1171 ms

@@ -1,0 +1,36 @@
+------------------------------------------------
+Assignment 3 ­ Multimedia Information System
+------------------------------------------------
+
+Please answer the following questions in written form (1-2 A4 pages max.)
+
+-----------------------------------------------------------------
+Task 3.1: Integrate your components
+-----------------------------------------------------------------
+
+------------------------------------------------------------------------------
+Task 3.2: Add a tag-based search page
+------------------------------------------------------------------------------
+
+* What are the shortcomings of our very simple tagging approach?
+
+* What can be said about relationships between tags?
+
+* We used tags for simple "content typing". How can content typing in the sense we did it 
+  improve navigation and search in an information system?
+
+----------------------------------------------------------
+Task 3.3: Metadata extraction 2
+----------------------------------------------------------
+
+* Discuss the advantages and limitations of your heuristics
+
+* Discuss the advantages and limitations of our simple dominant color model
+
+----------------------------------------------------------
+Task 3.4: Expose your data in Graph Dracula
+----------------------------------------------------------
+
+* What (type of) layout algorithm do we use for the information visualization in this assignment?
+
+* What are advantages/disadvantages of the used library?
