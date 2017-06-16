@@ -7,7 +7,7 @@ import java.awt.*;
 import java.awt.image.*;
 
 /*******************************************************************************
-   This file is part of the ITM course 2017 (c) University of Vienna 2009-2017
+   This file is part of the ITM course 2007 (c) University of Vienna 2009-2017
    (c) Pat Cullen http://mindmeat.blogspot.co.at/2008/07/java-image-comparison.html
  *******************************************************************************/
 

@@ -213,7 +213,7 @@ public class VideoThumbnailGenerator {
 	                    		//we compare the image with the last one
 	                    		ImageCompare compare= new ImageCompare(frames.get(frames.size()-1),img);
 	                    		//not sure what the best parameters are, those gave me a decent amount of frames so i igured it would be ok
-	                    		compare.setParameters(12, 12, 10, 10);
+	                    		compare.setParameters(10, 10, 10, 10);
 	                    		compare.compare();
 	                    		//if they are different from each other we add them to the list.
 	                    		if(!compare.match()){
@@ -253,13 +253,15 @@ public class VideoThumbnailGenerator {
 	    //System.out.println(writer.getDefaultPixelType());
 	    int f=0;
 	    int fps=50;
+	    long time=0;
 	    for(int i=0; i<frames.size()*fps;i++){
 	    	
 	    	if(f<frames.size()-1){
 	    		if((f+1)*fps<i)
 	    			f++;}
-	    	writer.encodeVideo(0, frames.get(f), System.nanoTime()-startTime,TimeUnit.NANOSECONDS);
-	    	Thread.sleep((long) (1000/fps));
+	    	writer.encodeVideo(0, frames.get(f), time ,TimeUnit.NANOSECONDS);
+	    	//Thread.sleep((long) (1000/fps));
+	    	time += 1000000000/fps;
 	    	
 
 	    }

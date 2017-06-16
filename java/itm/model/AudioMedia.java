@@ -86,6 +86,58 @@ public class AudioMedia extends AbstractMedia {
 	public void setChannels(int channels) {
 		this.channels = channels;
 	}
+	
+	public String getEncoding() {
+		return encoding;
+	}
+
+	public Duration getDuration() {
+		return duration;
+	}
+
+	public String getAuthor() {
+		return author;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public String getDate() {
+		return date;
+	}
+
+	public String getComment() {
+		return comment;
+	}
+
+	public String getAlbum() {
+		return album;
+	}
+
+	public String getTrack() {
+		return track;
+	}
+
+	public String getComposer() {
+		return composer;
+	}
+
+	public String getGenre() {
+		return genre;
+	}
+
+	public float getFrequency() {
+		return frequency;
+	}
+
+	public int getBitrate() {
+		return bitrate;
+	}
+
+	public int getChannels() {
+		return channels;
+	}
 
 	private String encoding = "";
 	private Duration duration = new Duration(0,0);

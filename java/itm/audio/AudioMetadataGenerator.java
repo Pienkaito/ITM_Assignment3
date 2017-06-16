@@ -214,7 +214,7 @@ public class AudioMetadataGenerator {
 			footerContent = new byte[fileContent.length - footerstart];
 
 			String footertext = "";
-			//String specialChars = "/*!@#$%^&*()\"{}_[]|\\?/<>,.";
+			String specialChars = "/*!@#$%^&*()\"{}_[]|\\?/<>,.";
 
 			int i = footerstart;
 			for (; i < fileContent.length; i++) {

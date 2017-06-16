@@ -125,7 +125,7 @@ public class ImageMedia extends AbstractMedia
         Converts a color space type to a human readable string
         @return a string describing the passed colorspace
     */
-    protected String serializeCSType( int cstype )
+    public String serializeCSType( int cstype )
     {
         switch ( cstype ) {
             case ColorSpace.CS_CIEXYZ: return "CS_CIEXYZ"; 

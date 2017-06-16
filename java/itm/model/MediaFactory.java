@@ -128,11 +128,11 @@ public class MediaFactory {
         // step 1.2: create metadata, do not overwrite if not required
         ImageMetadataGenerator img = new ImageMetadataGenerator();
         ret.addAll(img.batchProcessImages(imageDir, metadataDir, false));
-
-		// step 1.3: create histogram
+        
+		//step 1.3: create histogramm
 		ImageHistogramGenerator histGenerator = new ImageHistogramGenerator();
 		histGenerator.batchProcessImages(imageDir, metadataDir, 256);
-
+		
         // step 2.1: create audio thumbnails (with a given length), do not
         // overwrite if not required
         AudioThumbGenerator atg = new AudioThumbGenerator(10);

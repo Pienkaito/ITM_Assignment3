@@ -14,10 +14,14 @@ Task 3.2: Add a tag-based search page
 
 * What are the shortcomings of our very simple tagging approach?
 
+Beschreibung unklar bzgl. Color Dominanz ("red", "green", "blue" sagt so nichts aus)
+
 * What can be said about relationships between tags?
+Die Art des Mediums und die Datei-Endung definiert die Kategorie des Mediums.
 
 * We used tags for simple "content typing". How can content typing in the sense we did it 
   improve navigation and search in an information system?
+Leichte Kategorisierung der Daten durch die tags. Dient als ein Art Filter.
 
 ----------------------------------------------------------
 Task 3.3: Metadata extraction 2

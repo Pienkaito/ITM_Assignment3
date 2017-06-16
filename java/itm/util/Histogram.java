@@ -1,9 +1,9 @@
 package itm.util;
 
 /*******************************************************************************
-    This file is part of the ITM course 2017
-    (c) University of Vienna 2009-2017
-*******************************************************************************/
+ This file is part of the ITM course 2017
+ (c) University of Vienna 2009-2017
+ *******************************************************************************/
 
 import java.awt.Color;
 import java.awt.Graphics2D;
@@ -12,38 +12,36 @@ import java.awt.geom.Area;
 import java.awt.image.BufferedImage;
 
 /**
-	Utility class the implements some basic Histogram operations.
-*/
-public class Histogram 
-{
+ * Utility class the implements some basic Histogram operations.
+ */
+public class Histogram {
 	private final static int RED = 0;
 	private final static int GREEN = 1;
 	private final static int BLUE = 2;
 
 	/**
-	 	Histogram array: first value represents the amount of color channels the
-	 	second one distinct pixel values
-	*/
+	 * Histogram array: first value represents the amount of color channels the
+	 * second one distinct pixel values
+	 */
 	private int[][] hist;
 
 	private int colorcomponents;
 	private int bins;
 
 	/**
-	 	Maximal amount of pixels with the same value. Used for plotting.
+	 * Maximal amount of pixels with the same value. Used for plotting.
 	 */
 	int max;
 
 	/**
-		Constructor.
-
-	 	@param colorcomponents
-	 		the amount of channels
-	 	@param bins
-	 		the distinct values
-	*/
-	public Histogram(int colorcomponents, int bins) 
-	{
+	 * Constructor.
+	 * 
+	 * @param colorcomponents
+	 *            the amount of channels
+	 * @param bins
+	 *            the distinct values
+	 */
+	public Histogram(int colorcomponents, int bins) {
 		hist = new int[colorcomponents][bins];
 		this.colorcomponents = colorcomponents;
 		this.bins = bins;
@@ -51,13 +49,12 @@ public class Histogram
 	}
 
 	/**
-		Must be called in order to fill the histogram array
-	 
-	 	@param input
-	 		a histogram array
-	*/
-	public void setHistogram(int[][] input) 
-	{
+	 * Must be called in order to fill the histogram array
+	 * 
+	 * @param input
+	 *            a histogram array
+	 */
+	public void setHistogram(int[][] input) {
 		this.hist = input;
 		for (int i = 0; i < this.bins; i++) {
 			for (int j = 0; j < this.colorcomponents; j++) {
@@ -67,16 +64,16 @@ public class Histogram
 	}
 
 	/**
-	 	used to draw the histogram and fill it with colors
+	 * used to draw the histogram and fill it with colors
+	 * 
+	 * @param width
+	 *            of the histogram
+	 * @param height
+	 *            of the histogram
+	 * @return BufferedImage
+	 */
+	public BufferedImage plotHistogram(int width, int height) {
 
-	 	@param width
-	    	of the histogram
-	 	@param height
-        	of the histogram
-	 	@return BufferedImage
-	*/
-	public BufferedImage plotHistogram(int width, int height) 
-	{
 		BufferedImage image = null;
 
 		if (this.colorcomponents == 1) {
@@ -107,10 +104,10 @@ public class Histogram
 		}
 		if (this.colorcomponents >= 3) {
 			/**
-			 	extended RGB algorithm first channel:red second channel: green
-			 	third channel: blue fourth channel: the alpha value is being
-			 	ignored
-			*/
+			 * extended RGB algorithm first channel:red second channel: green
+			 * third channel: blue fourth channel: the alpha value is being
+			 * ignored
+			 */
 			image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
 			Graphics2D graphics = image.createGraphics();
 
@@ -120,8 +117,8 @@ public class Histogram
 			graphics.fillRect(0, 0, width, height);
 
 			/**
-				only first three bands are used
-			*/
+			 * only first three bands are used
+			 */
 			for (int i = 0; i < 3; i++) {
 				poly[i] = new Polygon();
 				if (i == RED) {
@@ -176,10 +173,9 @@ public class Histogram
 	}
 
 	/**
-	 	debug method
-	*/
-	public void printSamples() 
-	{
+	 * debug method
+	 */
+	private void printSamples() {
 		System.out.println("Red Stack:");
 		for (int i = 0; i <= 255; i++) {
 			System.out.println(i + ": " + this.hist[0][i]);

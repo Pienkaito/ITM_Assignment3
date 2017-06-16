@@ -1,9 +1,9 @@
 package itm.util;
 
 /*******************************************************************************
-    This file is part of the ITM course 2017
-    (c) University of Vienna 2009-2017
-*******************************************************************************/
+ This file is part of the ITM course 2017
+ (c) University of Vienna 2009-2017
+ *******************************************************************************/
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -20,18 +20,18 @@ import java.nio.charset.Charset;
 import java.nio.charset.CharsetDecoder;
 
 /**
-	Utility class the implements some basic I/O methods.
+ * Utility class the implements some basic I/O methods.
+ * 
+ * example:
+ * 
+ * String data = IOUtil.readFile( "myfile.txt" ); // loads the UTF-8 encoded
+ * contents from myfile.txt into the string
+ */
+public class IOUtil {
 
-	example:
- 
-	String data = IOUtil.readFile( "myfile.txt" ); // loads the UTF-8 encoded
-	contents from myfile.txt into the string
-*/
-public class IOUtil 
-{
 	/**
-	 	Reads a (character UTF-8) file into a string.
-	*/
+	 * Reads a (character UTF-8) file into a string.
+	 */
 	public static String readFile(File f) throws IOException, FileNotFoundException {
 		FileInputStream fis = null;
 		try {
@@ -49,25 +49,24 @@ public class IOUtil
 	}
 
 	/**
-		Reads (character) data from the passed file input stream into a string.
-	*/
-	public static String readFile(FileInputStream stream) throws IOException, FileNotFoundException 
-	{
+	 * Reads (character) data from the passed file input stream into a string.
+	 */
+	public static String readFile(FileInputStream stream) throws IOException, FileNotFoundException {
 		return readFile(stream, "UTF-8");
 	}
 
 	/**
-	 	Reads (character) data from the passed file input stream into a string.
-	 
-		@param stream
-	 		the file input stream
-	 	@param charsetString
-	 		a character set identifier (see 
-	 		http://java.sun.com/javase/6/docs/api/java/nio/charset/Charset.html)
-	*/
+	 * Reads (character) data from the passed file input stream into a string.
+	 * 
+	 * @param stream
+	 *            the file input stream
+	 * @param charsetString
+	 *            a character set identifier (see
+	 *            http://java.sun.com/javase/6/docs
+	 *            /api/java/nio/charset/Charset.html)
+	 */
 	public static String readFile(FileInputStream stream, String charsetString) throws IOException,
-			FileNotFoundException 
-	{
+			FileNotFoundException {
 		try {
 			FileChannel fc = stream.getChannel();
 
@@ -79,9 +78,9 @@ public class IOUtil
 			fc.read(bb);
 
 			/**
-				the selection of charSet is crucial for performance e.g.:
-				ISO-8859-1 is 'faster' than cp1252 or ISO-8859-15 or ...
-			*/
+			 * the selection of charSet is crucial for performance e.g.:
+			 * ISO-8859-1 is 'faster' than cp1252 or ISO-8859-15 or ...
+			 */
 			Charset charset = Charset.forName(charsetString);
 
 			CharsetDecoder decoder = charset.newDecoder();
@@ -94,27 +93,25 @@ public class IOUtil
 
 			return cb.toString();
 		} finally {
-			if (stream != null) {
+			if (stream != null)
 				try {
 					stream.close();
 				} catch (Exception e0) {
 					System.err.println("IOUtil ERROR: cannot close stream");
 				}
-			}
 		}
 	}
 
 	/**
-		Writes a StringBuffer to the passed file (using UTF-8 encoding).
-	 
-		@param outString
-	 		the stringbuffer to write
-	 	@param outFile
-			the file to write to - will be overwritten if it already
-	 		exists.
-	*/
-	public static void writeFile(StringBuffer outString, File outFile) throws IOException 
-	{
+	 * Writes a StringBuffer to the passed file (using UTF-8 encoding).
+	 * 
+	 * @param outString
+	 *            the stringbuffer to write
+	 * @param outFile
+	 *            the file to write to - will be overwritten if it already
+	 *            exists.
+	 */
+	public static void writeFile(StringBuffer outString, File outFile) throws IOException {
 		FileOutputStream fos = null;
 		try {
 			fos = new FileOutputStream(outFile);
@@ -122,13 +119,13 @@ public class IOUtil
 			bw.write(outString.toString(), 0, outString.length());
 			bw.close();
 		} finally {
-			if (fos != null) {
+			if (fos != null)
 				try {
 					fos.close();
 				} catch (IOException e0) {
 					System.err.println("IOUtil ERROR: cannot close stream on " + outFile);
 				}
-			}
 		}
 	}
+
 }
